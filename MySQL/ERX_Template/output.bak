@@ -1,0 +1,27 @@
+Virtual User Script started at : 2011-11-25 00:56:31
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 9.50 SP1 for WINXP; WebReplay96 build 7049 (Sep 23 2009 17:14:02)  	[MsgId: MMSG-27143]
+Run Mode: HTML  	[MsgId: MMSG-26000]
+Run-Time Settings file: "\\kopprdnasfs01\qa\PerformanceEngineering\berge\workbench\MySQL_LR_ERX\MySQL_Template\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action randomRead.
+Error -2: Host '192.168.0.57' is not allowed to connect to this MySQL server
+Error -3: row not found 'SELECT COUNT(*) FROM loadrunner_db.parameters' - MySQL server has gone away
+randomRead.c(20): Random number is : 0
+Error -3: row not found 'select username, password, secret from loadrunner_db.parameters LIMIT 0,1' - MySQL server has gone away
+randomRead.c(37): Username: 
+randomRead.c(38): Password: 
+randomRead.c(39): Secret: 
+Ptt_MySQL.h(126): Error: C interpreter run time error: Ptt_MySQL.h (126):  Error -- memory violation : Exception ACCESS_VIOLATION received.
+Ptt_MySQL.h(126): Notify: CCI trace: Ptt_MySQL.h(126): mysql_close(0x01f220b0)
+.
+Ptt_MySQL.h(126): Notify: CCI trace: randomRead.c(42): lr_mysql_disconnect(0x01f220b0)
+.
+Ptt_MySQL.h(126): Notify: CCI trace: Compiled_code(0): randomRead()
+.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

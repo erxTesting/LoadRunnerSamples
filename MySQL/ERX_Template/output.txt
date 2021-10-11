@@ -1,0 +1,24 @@
+Virtual User Script started at : 2011-11-25 01:00:45
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 9.50 SP1 for WINXP; WebReplay96 build 7049 (Sep 23 2009 17:14:02)  	[MsgId: MMSG-27143]
+Run Mode: HTML  	[MsgId: MMSG-26000]
+Run-Time Settings file: "\\kopprdnasfs01\qa\PerformanceEngineering\berge\workbench\MySQL_LR_ERX\MySQL_Template\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action randomRead.
+randomRead.c(20): Random number is : 2
+randomRead.c(37): Username: user3
+randomRead.c(38): Password: password3
+randomRead.c(39): Secret: secret3
+Ending action randomRead.
+Starting action writeResults.
+writeResults.c(3): Notify: Transaction "0001_Example" started.
+writeResults.c(8): Notify: Transaction "0001_Example" ended with "Pass" status (Duration: 0.0041).
+writeResults.c(28): This SQL statement executed - [insert into loadrunner_db.results (time, duration, returned_data)values ("01:01:07","0.002910","612855")]
+Ending action writeResults.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

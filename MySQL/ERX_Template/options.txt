@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-I\\kopprdnasfs01\qa\PerformanceEngineering\berge\workbench\MySQL_LR_ERX\MySQL_Template
+-IC:\Program Files\HP\LoadRunner\include
+-e\\kopprdnasfs01\qa\performanceengineering\berge\workbench\mysql_lr_erx\mysql_template\\logfile.log
+\\kopprdnasfs01\qa\performanceengineering\berge\workbench\mysql_lr_erx\mysql_template\\combined_MySQL_Template.c
+\\kopprdnasfs01\qa\performanceengineering\berge\workbench\mysql_lr_erx\mysql_template\\pre_cci.c
