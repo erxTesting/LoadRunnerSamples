@@ -1,0 +1,3 @@
+;	This is the script list for Eric Berg
+;	To construct a list use the command: type nul>usrFiles.txt&for /F "tokens=*" %A in ('dir /s/b *.usr') do @echo %~dpA>>usrFiles.txt
+;	To trim the \ off the ned and add a ; to the beginning use notepad++ using search "\\\r\n" replace "\r\n;"
