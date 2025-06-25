@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-This batch file is a utility script designed to manage and execute LoadRunner scripts locally or remotely. It includes features for editing, viewing, and running scripts, as well as managing persistent variables and configurations.
+This batch file is a utility script designed to manage and execute LoadRunner scripts locally or remotely(dependant on PsExec). It includes features for editing, viewing, and running scripts, as well as managing persistent variables and configurations.
 
 ---
 
